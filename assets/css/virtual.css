@@ -1428,3 +1428,6 @@ a:hover, a:active {
 .theme-purple .theme-list li::before {
     border-color: #6f42c1;
 }
+.img-place, .img-place img {
+  border-radius: 0 !important;
+}
