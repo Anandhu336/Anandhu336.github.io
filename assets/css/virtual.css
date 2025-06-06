@@ -1431,3 +1431,36 @@ a:hover, a:active {
 .img-place, .img-place img {
   border-radius: 0 !important;
 }
+/* Normalize form layout for Safari and Chrome */
+.vg-contact-form .form-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.vg-contact-form .col-6,
+.vg-contact-form .col-12 {
+  flex: 1 1 100%;
+  min-width: 220px;
+  box-sizing: border-box;
+}
+
+.vg-contact-form .col-6 {
+  flex: 1 1 48%;
+}
+
+.vg-contact-form input,
+.vg-contact-form textarea {
+  width: 100%;
+  box-sizing: border-box;
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-bottom: 0;
+}
+
+.vg-contact-form button {
+  min-width: 120px;
+}
